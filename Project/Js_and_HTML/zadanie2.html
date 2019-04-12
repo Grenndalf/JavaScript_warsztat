@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Spinner functionality</title>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <style type="text/css">
+        ul {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<form id="formular" method="post">
+    <div class="col-xs-9 col-sm-6 col-sm-offset-3">
+        <label>isbn:</label>
+        <input type="text" class="form-control" id="isbn" name="isbn" value="" placeholder="isbn">
+        <label>autor:</label>
+        <input type="text" class="form-control" id="author" name="author" value="" placeholder="autor">
+        <label>tytul:</label>
+        <input type="text" class="form-control" id="title" name="title" value="" placeholder="tytul">
+        <label>wydawca:</label>
+        <input type="text" class="form-control" id="publisher" name="publisher" value="" placeholder="publisher">
+        <label>kategoria:</label>
+        <input type="text" class="form-control" id="type" name="type" value="" placeholder="typ">
+        <label></label>
+    </div>
+    <button class="btn btn-primary col-sm-2 col-sm-offset-3">Submit</button>
+</form>
+<div id="titleContainer" style="clear:both"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="zadanie2.js"></script>
+</body>
+</html>
